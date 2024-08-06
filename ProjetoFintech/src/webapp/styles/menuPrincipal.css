@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.formulario{
+	background-color: #5850C7;
+	border-radius: 50px;
+	width: fit-content;
+	height: auto;
+	
+	padding: 20px 40px;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    }
+.btn:hover {
+    background-color: #0056b3;
+}

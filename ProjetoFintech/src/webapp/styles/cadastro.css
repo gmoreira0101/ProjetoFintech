@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body{
+	background-color: #B5B0FB;
+}
+.titulo{
+	color: #5850C7;
+}
+
+.formulario{
+	background-color: #5850C7;
+	border-radius: 50px;
+	width: fit-content;
+	height: auto;
+	
+	padding: 20px 40px;
+}
+
+input[type=submit]{
+
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+	height: 70px;
+	width: 260px;
+	background-color: #5850C7;
+	color: white;
+	border-radius: 50px;
+	
+	font-weight: 500;
+	
+	cursor:pointer;
+}
+.input-container{
+	background-color: #6E64FA;
+	border-radius: 40px;
+	
+	width: fit-content;
+	height: auto;
+	
+	padding: 10px 20px;
+	
+}
+
+input, select, textarea{
+	background-color: #5850C7;
+	border-radius: 50px;
+	border:none;
+	
+	padding: 10px 20px;
+	
+	color: white;
+	font-weight: 500;
+	
+	
+}
+
+input::placeholder{
+	color: white;
+	
+	font-weight: 500;
+}
+
+h3{
+	color: white;
+	font-weight: bold;
+}
+
+.espaco-top{
+	margin-top:20px;
+}
+
+input[type="submit"]:disabled {
+  	color: #484040;
+  	cursor:default;
+}
